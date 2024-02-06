@@ -455,5 +455,125 @@ video {
     font-size: 1rem;
     cursor: pointer;
 }
+@media only screen and (max-width: 768px) {
+    .nav__link {
+        display: block; 
+        text-align: center; 
+        margin-top: 3px; 
+    }
+
+    .nav__items {
+        margin-bottom: 3px; 
+    }
+}
+@media only screen and (max-width: 768px) {
+    .timeline {
+        flex-direction: column; 
+        align-items: center; 
+        height: auto; 
+    }
+
+    .timeline-event {
+        margin-top: 50px; 
+        position: relative;
+        width: 100%; 
+        box-sizing: border-box;
+        text-align: center; 
+    }
+
+    .circle {
+        margin: 0 auto; 
+    }
+
+    .event-details {
+        position: absolute;
+        top: 100%; 
+        left: 50%;
+        transform: translateX(-50%);
+        display: none;
+        width: 80%; 
+        max-width: 300px;
+    }
+
+    .event-2019 .event-details {
+        left: 90%;
+        transform: translateX(-120%);
+        width: 80%; 
+        max-width: 300px; 
+        text-align: center; 
+    }
+    .event-2024 .event-details {
+        left: 90%;
+        transform: translateX(57%);
+        width: 80%; 
+        max-width: 300px; 
+        text-align: center; 
+    }
+
+    .timeline-rectangle.merged {
+        height: 530px; 
+        width: 60px; 
+        border-radius: 50%; 
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .timeline-event.active .circle {
+        height: 530px; 
+    }
+
+    .timeline-event:hover .event-details {
+        display: block;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .timeline-event.active .circle {
+        height: 530px; 
+        width: 530px !important; 
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .timeline-event.active .circle {
+        width: 50px; 
+        height: 50px;
+    }
+
+    .timeline-event.active .event-details {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .timeline {
+        margin-bottom: 500px; 
+    }
+
+    .timeline-event:last-child {
+        margin-bottom: 20px;
+    }
+
+    .timeline-image {
+        margin-bottom: 20px;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    .skills__grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill {
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+
+    .progress-container {
+        margin-top: 10px; 
+    }
+}
+
 
 
