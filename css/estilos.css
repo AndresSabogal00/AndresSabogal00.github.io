@@ -129,10 +129,11 @@ body{
 
 .hero__title{
     font-size: 3rem;
+    margin-bottom: 0px;
 }
 
-.hero__paragraph{
-    margin-bottom: 20px;
+.hero_paragraph{
+    margin-bottom: 100px;
 }
 
 .cta{
