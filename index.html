@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andres Sabogal</title>
+    <meta name="description" content="Andrés Sabogal - Estudiante de Ingeniería Física en la Universidad Nacional de Colombia. Portfolio profesional con experiencia académica y habilidades en programación, diseño y divulgación científica.">
+    <meta name="keywords" content="Andrés Sabogal, Ingeniería Física, Universidad Nacional, programación, diseño, divulgación científica">
+    <meta name="author" content="Andrés Sabogal">
+    <title>Andrés Sabogal | Ingeniería Física</title>
     <link rel="shortcut icon" href="./images/nave espacial (1).png" type="image/x-icon">
+    <!-- Precargar fuentes para mejor rendimiento -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
-
     <header class="hero">
         <nav class="nav container">
             <div class="nav__logo">
@@ -21,7 +27,7 @@
                     <a href="#section1" class="nav__links">Habilidades</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#section2" class="nav__links">Estudios & Experiencia</a>
+                    <a href="#section2" class="nav__links">Trayectoria</a>
                 </li>
                 <li class="nav__items">
                     <a href="#section3" class="nav__links">Divulgación</a>
@@ -29,17 +35,21 @@
                 <li class="nav__items">
                     <a href="#contacto" class="nav__links">Contacto</a>
                 </li>
-                <img src="./images/close.svg" class="nav__close" alt="">
+                <img src="./images/close.svg" class="nav__close" alt="Cerrar menú">
             </ul>
     
             <div class="nav__menu">
-                <img src="./images/menu.svg" class="nav__img" alt="">
+                <img src="./images/menu.svg" class="nav__img" alt="Abrir menú">
             </div>
         </nav>
 
         <section class="hero__container container">
             <h1 class="hero__title">Andrés Sabogal</h1>
-            <p class="hero_paragraph">Hola! Soy Andrés, tengo 20 años y actualmente curso mi octavo semestre de Ingeniería Física en la Universidad Nacional de Colombia. Si quieres conocer más de mí, desliza hacia abajo. </p>
+            <p class="hero_paragraph">Hola! Soy Andrés, tengo 21 años, estudio Ingeniería Física en la Universidad Nacional de Colombia. Si quieres conocer más de mí, desliza hacia abajo.</p>
+            <div class="hero__buttons">
+                <a href="#contacto" class="cta primary-cta">Contáctame</a>
+                <a href="#section2" class="cta secondary-cta">Ver trayectoria</a>
+            </div>
         </section>
     </header>
 
@@ -48,6 +58,9 @@
             <h2 class="subtitle">Mis Habilidades</h2>
             <div class="skills__grid">
                 <div class="skill">
+                    <div class="skill__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l-7-7 7-7"/><path d="M19 19l-7-7 7-7"/></svg>
+                    </div>
                     <h3 class="skill__title">Programación</h3>
                     <p class="skill__description">PYTHON</p>
                     <div class="progress-container">
@@ -66,6 +79,9 @@
                     </div>
                 </div>
                 <div class="skill">
+                    <div class="skill__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                    </div>
                     <h3 class="skill__title">Diseño</h3>
                     <p class="skill__description">SOLID EDGE</p>
                     <div class="progress-container">
@@ -84,6 +100,9 @@
                     </div>
                 </div>
                 <div class="skill">
+                    <div class="skill__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
                     <h3 class="skill__title">Idiomas</h3>
                     <p class="skill__description">ESPAÑOL</p>
                     <div class="progress-container">
@@ -102,6 +121,9 @@
                     </div>
                 </div>
                 <div class="skill">
+                    <div class="skill__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                    </div>
                     <h3 class="skill__title">Edición</h3>
                     <p class="skill__description">CAPCUT</p>
                     <div class="progress-container">
@@ -122,17 +144,16 @@
             </div>
         </section>
 
-        
         <section id="section2" class="container timeline-sectionone">
-            <h2 class="section-title">Mi tryaectoria académica y profesional</h2>
-            </section>
+            <h2 class="section-title">Mi trayectoria académica y profesional</h2>
+        </section>
         <section class="container timeline-section">
             <div class="timeline">
                 <div class="timeline-event event-2019" data-year="2019">
                     <div class="circle">2019</div>
                     <div class="event-details">
                         <h3>Colegio Técnico Industrial</h3>
-                        <p>Bachiller Industrial, especialidad de Ebanistería / Institución Educativa Técnica, Colombia, Diciembre, 2019.</p>
+                        <p>Bachiller Industrial, especialidad de Ebanistería / Institución Educativa Técnica "Jorge Eliecer Gaitán Ayala" Líbano - Tolima, Colombia, Diciembre, 2019.</p>
                         <h3>Técnico en Carpintería</h3>
                         <p>Técnico del SENA</p>
                     </div>
@@ -192,18 +213,133 @@
                 <div class="timeline-event event-2024" data-year="2024">
                     <div class="circle">2024</div>
                     <div class="event-details">
-                        <h3>2024</h3>
+                        <h3>Entrada al equipo ChemECar</h3>
+                        <p>Participación en competencia ChemECar en Cusco, Perú</p>
                     </div>
                     <div class="connecting-line"></div>
                 </div>
                 <div class="timeline-rectangle"></div>
             </div>
+            <div class="timeline-event event-2024" data-year="2025">
+                <div class="circle">2025</div>
+                <div class="event-details">
+                    <h3>2025</h3>
+                    <p>Proyectos en desarrollo</p>
+                </div>
+                <div class="connecting-line"></div>
+            </div>
+            <div class="timeline-rectangle"></div>
+        </div>
         </section>
     
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-            var timelineEvents = document.querySelectorAll('.timeline-event');
+        <section class="container hero-section">
+            <div class="hero-container">
+                <h2 class="hero-title">Mis Plantillas de Notion</h2>
+                <p class="hero-description">Herramientas personalizadas para la organización académica y profesional</p>
+                <a href="https://shiny-balmoral-05a.notion.site/2024-Dashboard-ae2c586ae2164e36ae35fe856b8aef76?pvs=4" class="boton-enlace" target="_blank">
+                    <span>Accede a mi última plantilla</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </a>
+            </div>
+        </section>
+        
+        <section id="section3" class="container deivsection">
+            <h2 class="titlediv">Divulgación Científica y Estudio</h2>
+            <p class="section-description">Exploro y comparto conceptos científicos de manera accesible y visualmente atractiva</p>
+        </section>
+        
+        <section class="videos-section container">
+            <div class="video-container">
+                <video autoplay loop muted playsinline>
+                    <source src="./images/primervideo.mp4" type="video/mp4">
+                </video>
+                <div class="video-overlay">
+                    <span class="video-tag">Física</span>
+                </div>
+            </div>
+            <div class="video-container">
+                <video autoplay loop muted playsinline>
+                    <source src="./images/segundovideo.mp4" type="video/mp4">
+                </video>
+                <div class="video-overlay">
+                    <span class="video-tag">Ciencia</span>
+                </div>
+            </div>
+            <div class="video-container">
+                <video autoplay loop muted playsinline>
+                    <source src="./images/tercervideo.mp4" type="video/mp4">
+                </video>
+                <div class="video-overlay">
+                    <span class="video-tag">Educación</span>
+                </div>
+            </div>
+        </section>
+        
+        <section class="last-section container">
+            <div class="last-container">
+                <h2 class="last-title">Creación de vídeos</h2>
+                <p class="last-paragraph">En 2023 decidí comenzar con la creación de vídeos en tres plataformas, Instagram, TikTok y YouTube, en las cuales sumo más de 121.000 seguidores. Inicialmente lo comencé como un hobby, sin embargo ahora creo que es un proyecto personal, pues siempre me ha gustado la filmación y edición, que combinados con la divulgación de ciencia y lifestyle de un estudiante se han convertido en un factor importante en mi vida.</p>
+            </div>
+            <div class="button-container">
+                <a href="https://www.tiktok.com/@andresnotes_?_t=8jdwjFJXNPJ&_r=1" target="_blank" class="social-btn">
+                    <img src="./images/tiktok.svg" alt="TikTok de Andrés Sabogal">
+                    <span>TikTok</span>
+                </a>
 
+                <a href="https://www.instagram.com/andresnotes_?igsh=MTF3bnc3MGtmZ3MzMQ%3D%3D&utm_source=qr" target="_blank" class="social-btn">
+                    <img src="./images/ig.svg" alt="Instagram de Andrés Sabogal">
+                    <span>Instagram</span>
+                </a>
+            </div>
+        </section>
+        
+        <section id="contacto" class="contact-section">
+            <div class="contact-container">
+                <h2 class="contact-title">Contáctame</h2>
+                <p class="contact-description">¿Tienes un proyecto interesante o quieres colaborar? Escríbeme.</p>
+                <form action="https://formsubmit.co/andresfsabogal08@gmail.com" method="POST" class="contact-form">
+                    <input name="correo" type="email" class="form-input" placeholder="Tu correo electrónico" required>
+                    <input name="asunto" type="text" class="form-input" placeholder="Asunto" required>
+                    <textarea name="mensaje" class="form-textarea" placeholder="Escribe tu mensaje aquí" required></textarea>
+                    <button name="enviar" type="submit" class="submit-button">
+                        <span>Enviar mensaje</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <h3>Andrés Sabogal</h3>
+                <p>Ingeniería Física | UNAL</p>
+            </div>
+            <div class="footer-links">
+                <a href="#section1">Habilidades</a>
+                <a href="#section2">Trayectoria</a>
+                <a href="#section3">Divulgación</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.tiktok.com/@andresnotes_?_t=8jdwjFJXNPJ&_r=1" target="_blank">
+                    <img src="./images/tiktok.svg" alt="TikTok">
+                </a>
+                <a href="https://www.instagram.com/andresnotes_?igsh=MTF3bnc3MGtmZ3MzMQ%3D%3D&utm_source=qr" target="_blank">
+                    <img src="./images/ig.svg" alt="Instagram">
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Andrés Sabogal - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Timeline eventos
+            var timelineEvents = document.querySelectorAll('.timeline-event');
             timelineEvents.forEach(function (event) {
                 event.addEventListener('click', function () {
                     if (event.dataset.year === '2020') {
@@ -218,69 +354,50 @@
                             });
                             event.classList.add('active');
                             event.querySelector('.circle').innerText = '2020-2024';
-                            
                         }
                     }
                     var details = event.querySelector('.event-details');
-            details.style.display = details.style.display === 'block' ? 'none' : 'block';
-                    
+                    details.style.display = details.style.display === 'block' ? 'none' : 'block';
                 });
-                
+            });
+
+            // Menú responsive
+            const navMenu = document.querySelector('.nav__menu');
+            const navLink = document.querySelector('.nav__link');
+            const navClose = document.querySelector('.nav__close');
+
+            navMenu.addEventListener('click', () => {
+                navLink.classList.add('nav__link--show');
+            });
+
+            navClose.addEventListener('click', () => {
+                navLink.classList.remove('nav__link--show');
+            });
+
+            // Cerrar menú al hacer clic en un enlace
+            document.querySelectorAll('.nav__links').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLink.classList.remove('nav__link--show');
+                });
+            });
+
+            // Animación al scroll
+            const observerOptions = {
+                threshold: 0.25
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate-in');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.skill, .timeline-event, .video-container, .hero-container, .last-container, .contact-container').forEach(element => {
+                observer.observe(element);
             });
         });
-        
-
-        </script>
-        <section class="container hero-section">
-            <div class="hero-container">
-                <h2 class="hero-title">Mis Planitllas de Notion</h2>
-                <a href="https://shiny-balmoral-05a.notion.site/2024-Dashboard-ae2c586ae2164e36ae35fe856b8aef76?pvs=4" class="boton-enlace" target="_blank">Accede a mi última plantilla de Notion</a>
-            </div>
-        </section>
-        <section id="section3" class="container deivsection">
-            <h2 class="titlediv">Divulgación Científica y Estudio</h2>
-
-        </section>
-        <section class="videos-section container">
-            <video autoplay loop muted playsinline>
-                <source src=".//images/primervideo.mp4" type="video/mp4">
-            </video>
-            <video autoplay loop muted playsinline>
-                <source src=".//images/segundovideo.mp4" type="video/mp4">
-            </video>
-            <video autoplay loop muted playsinline>
-                <source src=".//images/tercervideo.mp4" type="video/mp4">
-            </video>
-        </section>
-        <section class="last-section container">
-            <div class="last-container">
-                <h2 class="last-title">Creación de vídeos</h2>
-                <p class="last-paragraph">En 2023 decidí comenzar con la creación de vídeos en tres plataformas, Instagram, TikTok y YouTube, en las cuales sumo más de 121.000 seguidores. Inicialmente lo comencé como un hobby, sin embargo ahora creo que es un proyecto personal, pues siempre me ha gustado la filmación y edición, que combinados con la divulgación de ciencia y lifestyle de un estudiante se han convertido en un factor importante en mi vida.</p>
-            </div>
-            <div class="button-container">
-                <a href="https://www.tiktok.com/@andresnotes_?_t=8jdwjFJXNPJ&_r=1" target="_blank" class="cta">
-                    <img src=".//images/tiktok.svg" alt="Icono 1">
-                </a>
-
-                <a href="https://www.instagram.com/andresnotes_?igsh=MTF3bnc3MGtmZ3MzMQ%3D%3D&utm_source=qr" target="_blank" class="cta">
-                    <img src=".//images/ig.svg" alt="Icono 2">
-                </a>
-            </div>
-        </section>
-        <form action="https://formsubmit.co/andresfsabogal08@gmail.com" method="POST" class="contact-section" id="contacto">
-            <div class="contact-container">
-                <h2 class="contact-title">Contáctame</h2>
-                <form class="contact-form">
-                    <input name="correo" type="text" class="form-input" placeholder="Tu correo electrónico" required>
-                    <input name="asunto" type="text" class="form-input" placeholder="Asunto" required>
-                    <textarea name="mensaje" class="form-textarea" placeholder="Escribe tu mensaje aquí" required></textarea>
-                    <button name="enviar" type="submit" class="submit-button">Enviar mensaje</button>
-                </form>
-            </div>
-        </form>
-
-        
-    </main>
-
+    </script>
 </body>
 </html>
